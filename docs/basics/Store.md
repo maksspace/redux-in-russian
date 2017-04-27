@@ -7,7 +7,7 @@
 * Содержит состояние приложения (application state);
 * Предоставляет доступ к состоянию с помощью [`getState()`](../api/Store.md#getState);
 * Предоставляет возможность обновления состояния с помощью [`dispatch(action)`](../api/Store.md#dispatch);
-* Регистрирует слушатели (listeners) c помощью [`subscribe(listener)`](../api/Store.md#subscribe).
+* Регистрирует слушателей (listeners) c помощью [`subscribe(listener)`](../api/Store.md#subscribe).
 
 Важно отметить, что у Вас будет только одно хранилище в Redux приложении. Если Вы захотите разделить логику обработки данных, то нужно будет использовать [компоновку редюсеров (reducer composition)](Reducers.md#splitting-reducers), вместо использования множества хранилищ (stores).
 
